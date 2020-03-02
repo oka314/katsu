@@ -1,0 +1,36 @@
+.contents {
+  height: 100vh;
+  background-image: image-url('gazo1.jpeg');
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 0.6;
+  &__main{
+    height: 100%;
+    width: 100%;
+      &--name{
+        width: 60%;
+        height: calc(100vh - 200px);
+        color:adjust-hue($color: white, $degrees: 100deg);
+        font-size: 45px;
+        text-align: center;
+        margin: 0 auto;
+        
+      }
+      &--login {
+        display: flex;
+        .message{
+          color:adjust-hue($color: white, $degrees: 100deg);
+          font-size: 45px;
+          margin: 0 auto;
+          height: 45%;
+        }
+        .registration{
+          color:adjust-hue($color: white, $degrees: 100deg);
+          font-size: 45px;
+          margin: 0 auto;
+          height: 45%;
+        
+        }
+      } 
+  }
+}
