@@ -5,16 +5,17 @@
   background-size: cover;
   opacity: 0.6;
   &__main{
-    height: 100%;
+    height: 100vh;
     width: 100%;
+
       &--name{
         width: 60%;
-        height: calc(100vh - 200px);
+        height: 70px;
         color:adjust-hue($color: white, $degrees: 100deg);
         font-size: 45px;
         text-align: center;
         margin: 0 auto;
-        
+        margin-bottom: 200px;
       }
       &--login {
         display: flex;
