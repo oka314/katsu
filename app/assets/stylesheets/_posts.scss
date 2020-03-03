@@ -4,6 +4,7 @@
   background-attachment: fixed;
   background-size: cover;
   opacity: 0.6;
+  width: 100vw;
   &__main{
     height: 100vh;
     width: 100%;
@@ -20,18 +21,16 @@
       &--login {
         display: flex;
         .message{
-          color:adjust-hue($color: white, $degrees: 100deg);
-          font-size: 45px;
+          height: 50px;
+          width: 50x;
           margin: 0 auto;
-          height: 45%;
-        }
-        .registration{
-          color:adjust-hue($color: white, $degrees: 100deg);
-          font-size: 45px;
-          margin: 0 auto;
-          height: 45%;
-        
+          .main-btn{
+            color: white;
+            font-size: 45px;
+            text-decoration: none;
+          }
         }
       } 
   }
+  
 }

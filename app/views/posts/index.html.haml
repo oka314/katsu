@@ -4,6 +4,5 @@
       キットkatsuへようこそ
     .contents__main--login
       .message 
-        ログイン
-      .registration
-        会員登録
+        =link_to new_user_session_path, class: "main-btn" do
+          ログイン/会員登録
